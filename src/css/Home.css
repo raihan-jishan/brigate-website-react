@@ -1,0 +1,55 @@
+/* design the whole slider section */
+
+#home {
+    height: 78vh;
+    width: 100%;
+    color: whitesmoke;
+    animation: image 4s infinite alternate forwards;
+    animation-duration: 10s;
+  }
+  .wrapperItem {
+    width: 90%;
+    height: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+  }
+  #home .info h1 {
+    /* text-transform: uppercase; */
+    margin-bottom: 1rem;
+    max-width: 40%;
+  }
+  #home .info h2 {
+    margin-bottom: 2rem;
+  }
+  #home .info p {
+    max-width: 50%;
+  }
+  #home .info a {
+    margin-top: 2rem;
+  }
+  /* animation */
+  
+  @keyframes image {
+    0% {
+      background: linear-gradient(rgba(0, 0, 0, 0.342), rgba(0, 0, 0, 0.342)),
+        url("https://brigate.vercel.app/img/slide-2.jpg") no-repeat center bottom /
+          cover;
+      transition: 0.3s;
+    }
+    75% {
+      background: linear-gradient(rgba(0, 0, 0, 0.342), rgba(0, 0, 0, 0.342)),
+        url("https://media.istockphoto.com/id/1411124133/photo/architecture-design-from-blocks-structure-of-modern-metallic-wall-design-with-reflection-the.jpg?s=612x612&w=0&k=20&c=zz8dn4y7gcP6Qi_yGCEzbvY21KXJVp1QfMpBsXgo5WM=")
+          no-repeat center bottom / cover;
+      transition: 0.3s;
+    }
+    100% {
+      background: linear-gradient(rgba(0, 0, 0, 0.342), rgba(0, 0, 0, 0.342)),
+        url("https://media.istockphoto.com/id/1400437847/photo/bright-excavator-at-work-on-a-dark-background-view-from-a-drone.jpg?s=612x612&w=0&k=20&c=Q-GbsorGAU3uWT6oBgQTHui9RoYkAhqd_PEG2x96XUg=")
+          no-repeat center bottom / cover;
+      transition: 0.3s;
+    }
+  }
+  

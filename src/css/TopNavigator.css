@@ -1,0 +1,104 @@
+/* design the top haeder section  */
+
+.header {
+    width: 100%;
+    height: 5rem;
+    margin-bottom: 0%;
+    background: var(--LiteSilver);
+    overflow: hidden;
+  }
+  
+  .topIntro {
+    width: 100%;
+    height: 5rem;
+    display: flex;
+  }
+  
+  .phone {
+    display: flex;
+    justify-content: space-around;
+    width: 23%;
+    align-items: center;
+    margin: 0% 0%;
+  }
+  
+  .phone::before {
+    content: "";
+    width: 5rem;
+    height: 5rem;
+    border-right: 0.1rem solid rgb(211 211 211);
+    margin: 2% 9%;
+  }
+  
+  .phone::after {
+    content: "";
+    width: 5rem;
+    height: 5rem;
+    border-right: 0.1rem solid rgb(211 211 211);
+    margin-left: -20%;
+  }
+   
+  .email {
+    display: flex;
+    justify-content: space-around;
+    width: 33%;
+    align-items: center;
+    margin: 1.5% 27.5% 1.5% 0;
+  }
+  
+  .topIntro i {
+    font-size: 2rem;
+    color: var(--PrimaryColor);
+  }
+  
+  .topIntro span {
+    font-size: 1.6rem; 
+    font-family: "Work Sans", sans-serif;
+  }
+  
+  .socialLinks {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 10%;
+    margin-left: -7%;
+  }
+  
+  .faceBook,
+  .twittEr,
+  .linkedIn {
+    border-left: 0.1rem solid rgb(211 211 211 / 72%);
+    height: 100%;
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+  
+  .linkedIn {
+    border-right: 0.1rem solid rgb(211 211 211 / 72%);
+  }
+  
+  .faceBook i.fa.fa-facebook {
+    margin: 155% 0 0 0;
+  }
+  
+  .fa-twitter,
+  .fa-linkedin-square {
+    margin: 97% 0 0 0;
+  }
+  
+  .socialLinks i {
+    color: #000;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  .socialLinks i:hover {
+    color: var(--PrimaryColor);
+  }
+  
+  .logo {
+    width: 15%;
+    height: auto;
+    float: left;
+    cursor: pointer;
+  }

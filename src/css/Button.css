@@ -1,0 +1,36 @@
+/* more use able codes */
+.btn-primary {
+  display: inline-block;
+  background-color: var(--PrimaryColor);
+  border-radius: 20px;
+  padding: 8px 50px;
+  font-size: 2.5rem;
+  color: var(--Black);
+}
+.btn-primary:hover {
+  background-color: #ce4100;
+}
+/* big button */
+.btn-big {
+  padding: 8px 80px;
+  border-radius: 3rem;
+  font-size: 2.6rem;
+}
+.account {
+  padding: 7px 30px;
+  border-radius: 3rem;
+  margin-top: 20px;
+  border: 2px solid transparent;
+  color: var(--Black);
+  cursor: pointer;
+}
+.login {
+  background: transparent;
+  border: 2px solid var(--PrimaryColor);
+  color: var(--White);
+  padding: 9px 60px;
+}
+.login:hover {
+  color: var(--Black);
+  border: 2px solid var(--Black);
+}

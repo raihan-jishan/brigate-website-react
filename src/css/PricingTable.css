@@ -1,0 +1,36 @@
+/* design all pricing table */
+.priceBox{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  .priceListBoxes{
+    background: var(--LiteSilver);
+    padding: 20px;
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% ;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  
+  }
+  .priceListBoxes h1{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .priceListBoxes ul li {
+    font-size: 2.3rem;
+    margin: 5px;
+  
+  }
+  .price h1{
+    font-size: 5rem;
+  }
+  @media screen and (max-width: 700px) {
+     .priceBox{
+      flex-direction: column;
+     }
+     .priceListBoxes{
+      margin-top: 10px;
+      border-radius: 1rem;
+     }
+  }

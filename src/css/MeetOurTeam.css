@@ -1,0 +1,17 @@
+/* desogn the whole section points */
+.social-connect i {
+    margin: 10px;
+    font-size: 2.5rem;
+}
+.social-connect i:nth-child(1){
+    color: blue;
+}
+.social-connect i:nth-child(2){
+    color: #29ee71;
+}
+.social-connect i:nth-child(3) {
+    color: #00acee;
+}
+.social-connect i:nth-child(4) {
+    color: #0072b1 ;
+}

@@ -1,0 +1,119 @@
+/* design the more info section */
+/* .primaryServicesBox */
+.primaryServicesBox {
+  margin: 10px;
+}
+.primaryServicesBox {
+  height: auto;
+  background: var(--White);
+  border: 0.1rem solid rgb(219 219 219 / 66%);
+  overflow: hidden;
+  transition: all 0.5s;
+  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+}
+/* .primaryServices */
+.primaryServices {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  background: var(--LiteSilver);
+  padding: 9rem;
+}
+
+.primaryServicesBox:hover {
+  background: var(--PrimaryColor);
+}
+/* for actve something */
+.primaryServicesBox:nth-child(2) .sboxIcon i,
+.primaryServicesBox:nth-child(2) .sboxTitle h5,
+.primaryServicesBox:nth-child(2) .sboxDes p,
+.primaryServicesBox:nth-child(2) .sboxLink span a {
+  color: rgb(129, 129, 129);
+}
+/* and hover sme thing else...  */
+.primaryServicesBox:hover .sboxIcon i,
+.primaryServicesBox:hover .sboxTitle h5,
+.primaryServicesBox:hover .sboxDes p,
+.primaryServicesBox:hover .sboxLink span a {
+  color: var(--White);
+}
+/* icon center */
+.sboxIcon {
+  padding: 10% 0 3% 0;
+  transition: all 0.4s;
+}
+
+.sboxIcon i {
+  color: var(--PrimaryColor);
+  font-size: 4.8rem;
+  transition: all 0.4s;
+}
+/* .sboxTitle */
+.sboxTitle {
+  /* padding: 6% 0 8% 0; */
+  transition: all 0.4s;
+}
+/* .sboxTitle h5 */
+.sboxTitle h5 {
+  width: 65%;
+  margin: auto;
+  text-transform: uppercase;
+  font-size: 1.9rem;
+  color: #333333;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+/* .sboxDes */
+.sboxDes {
+  margin: 0 0 10% 0;
+  text-align: center;
+  transition: all 0.4s;
+}
+/* .sboxDes p  */
+.sboxDes p {
+  font-size: 1.7rem;
+  width: 80%;
+  margin: auto;
+  line-height: 2.4rem;
+  color: #656565;
+  transition: all 0.4s;
+}
+/* .sboxLink */
+.sboxLink {
+  margin: 0 0 10% 0;
+  text-align: center;
+  transition: all 0.4s;
+}
+/* .sboxLink span a */
+.sboxLink span a {
+  color: var(--Black) !important;
+  font-size: 2rem;
+  text-transform: capitalize;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.4s;
+}
+/*  */
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* nth child */
+.silver {
+  background: #656565;
+}
+@media screen and (max-width: 700px) {
+  .row {
+    flex-direction: column;
+  }
+  .primaryServicesBox {
+    border-radius: 1rem;
+  }
+  .primaryServicesBox {
+    width: 100%;
+  }
+  .sboxLink span a {
+    font-size: 1.6rem;
+  }
+}

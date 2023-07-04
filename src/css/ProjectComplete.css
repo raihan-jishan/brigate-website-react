@@ -1,0 +1,51 @@
+/* design whole section */
+
+.blogSection {
+  width: 100%;
+  height: auto;
+  background: linear-gradient(rgb(0 0 0 / 55%), rgb(0 0 0 / 55%)),
+    url("https://brigate.vercel.app/img/customerNum.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color: #fff;
+  text-align: center;
+}
+
+.blogBox {
+  margin: 10px;
+}
+
+.blogBox:last-child {
+  margin-right: 0%;
+  margin-left: 0%;
+}
+
+.blogBox:first-child {
+  margin-left: 3%;
+}
+
+.blogIcon {
+  text-align: center;
+  margin: 6% 0;
+}
+
+.blogIcon i {
+  font-size: 4rem;
+}
+
+.blogNumber {
+  margin: 6% 0;
+}
+
+.blogNumber h4 {
+  font-size: 6rem;
+  font-family: "Work Sans", sans-serif;
+}
+
+.blogTitle h5 {
+  font-size: 2rem;
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+}

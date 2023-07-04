@@ -1,0 +1,68 @@
+/* design the whole page */
+ 
+#contactUs {
+    width: 100%;
+    height: auto;
+    /* padding: 14rem 2rem; */
+    background: linear-gradient(#00000085, #0000007d),
+      url("https://brigate.vercel.app/img/contact-header.jpg  ");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+  .form-container {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+  }
+  .info-formText {
+    font-size: 4rem;
+    font-weight: 500;
+    color: var(--White);
+  }
+  /* form-inputs */
+  .form-inputs {
+    margin-top: 0px;
+  }
+  .form-inputs input {
+    padding: 10px 30px;
+    font-size: 2rem;
+    background: transparent;
+    border: 2px solid var(--PrimaryColor);
+    color: var(--White);
+    border-radius: 10rem;
+    margin: 10px;
+  }
+  ::-webkit-input-placeholder {
+    color: var(--White);
+    font-size: 2.4rem;
+    letter-spacing: 1px;
+  }
+  /* more-options */
+  .more-options {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .options i {
+    color: rgb(165, 165, 165);
+    font-size: 3rem;
+  }
+  .options {
+    margin: 20px;
+  }
+  .continue-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.6rem;
+    color: var(--White);
+    margin-top: 20px;
+    font-weight: 500;
+  }
+  .info-text-side{
+    width: 20%;
+    color: #ffff;
+    font-size: 2rem;
+  }
